@@ -161,11 +161,12 @@
           "fe4f14f6-d517-4ed6-8008-9706cd46afbf": {
             "type": "text",
             "settings": {
-              "heading": "Heading",
+              "heading": "",
               "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>",
-              "show_menu_image": false,
+              "show_menu_image": true,
+              "menu_image": "shopify:\/\/shop_images\/footer-logo.png",
               "menu_image_width": 100,
-              "show_menu_newsletter": false
+              "show_menu_newsletter": true
             }
           },
           "footer-0": {
