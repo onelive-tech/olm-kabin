@@ -1,0 +1,134 @@
+<div class="image-container">
+    <div class="page-width">
+        <div class="wrapper">
+            <div class="left-content">
+                <h2>{{ section.settings.heading }}</h2>
+                <p>{{ section.settings.text }}</p>
+                <div class="buttons">
+                    <a href="{{ section.settings.button-one-link }}">
+                        {{ section.settings.button-one-text }}
+                    </a>
+                    <a href="{{ section.settings.button-two-link }}">
+                        {{ section.settings.button-two-text }}
+                    </a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="{{ section.settings.image | img_url: 'master' }}" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<style>
+    .wrapper {
+        position:relative;
+        margin:60px 0;
+    }
+    .wrapper .left-content {
+        width:90%;
+        background-color:#dfc1ab ;
+        padding:34px 25px;
+    }
+    .wrapper .left-content h2 {
+        font-size:28px;
+    }
+    .wrapper .left-content p {
+        font-size:20px;
+        max-width:70%;
+    }
+    .wrapper .image {
+        position: absolute;
+        right:0; 
+        top:15%;
+    }
+    .wrapper .image img {
+        width:300px;
+    }  
+    .wrapper .buttons {
+        padding:20px 0;
+    }
+    .wrapper .buttons a {
+        display: inline-block;
+        background-color: #fff;
+        border:1px solid #000;
+        color:#000;
+        text-decoration: none;
+        padding:10px 25px;
+        font-size:18px;
+        margin-right:20px;
+    } 
+    @media (max-width:992px) {
+        .wrapper .image {
+            position:relative;
+
+        }
+        .wrapper .left-content {
+            width:100%;
+        }
+        .wrapper .left-content p {
+            font-size:20px;
+            max-width:100%;
+        }
+        .wrapper .buttons {
+            text-align: center;
+        }
+        .wrapper .image img {
+            width:100%;
+        }  
+        .wrapper .buttons a {
+            margin:10px 0;
+        } 
+    }
+</style>
+
+{% schema %} 
+{
+"name": "Image banner wtih text",
+"class": "image-container",
+"settings": [
+    {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+    },
+    {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+    },
+    {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text"
+    },
+    {
+          "type": "text",
+          "id": "button-one-text",
+          "label": "Button one text"
+    },
+    {
+          "type": "url",
+          "id": "button-one-link",
+          "label": "Button one link"
+    },
+    {
+          "type": "text",
+          "id": "button-two-text",
+          "label": "Button two text"
+    },
+    {
+          "type": "url",
+          "id": "button-two-link",
+          "label": "Button two link"
+    }   
+],
+"presets": [
+    {
+        "name": "Banner text"
+    }
+]  
+}
+{% endschema %}
