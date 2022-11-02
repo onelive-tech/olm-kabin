@@ -106,9 +106,9 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/Kabin-1824152734307846\/",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/kabintool\/",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -117,7 +117,9 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/Favicon.png",
     "currency_code_enabled": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/LOGO.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
