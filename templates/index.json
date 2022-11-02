@@ -70,7 +70,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "",
+        "collection": "frontpage",
         "products_to_show": 2,
         "columns_desktop": 2,
         "full_width": false,
@@ -88,11 +88,24 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "f47ae439-9abb-4469-b94b-5fe774aa4a6b": {
+      "type": "image-text-section",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled-1.png",
+        "heading": "We are KABIN",
+        "text": "KABIN is an intersection of rustic living and modern conveniences. Our products celebrate simplicity and the outdoors while using the best materials, designs, and craftsmanship this era has to offer. All KABIN products are designed in-house by our small team.",
+        "button-one-text": "SHOP TOOLS",
+        "button-one-link": "shopify:\/\/collections",
+        "button-two-text": "CONTACT US",
+        "button-two-link": ""
+      }
     }
   },
   "order": [
     "image_banner",
     "video",
-    "e4bf8294-e76d-4ae1-b6c3-ed20fdba6a20"
+    "e4bf8294-e76d-4ae1-b6c3-ed20fdba6a20",
+    "f47ae439-9abb-4469-b94b-5fe774aa4a6b"
   ]
 }
