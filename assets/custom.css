@@ -67,6 +67,7 @@ footer.footer {
 }
 footer.footer .footer-block__details-content .list-menu__item--link {
     color:#fff;
+  padding-bottom:0;
 }
 footer.footer h2 {
     color:#fff;
