@@ -148,7 +148,7 @@
           "logo": "shopify:\/\/shop_images\/LOGO.png",
           "logo_width": 90,
           "logo_position": "middle-center",
-          "menu": "main-menu",
+          "menu": "temp-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": false,
