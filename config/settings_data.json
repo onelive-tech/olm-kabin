@@ -172,25 +172,25 @@
               "show_menu_newsletter": true
             }
           },
+          "footer-1": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Products",
+              "menu": "footer"
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
               "heading": "Resources",
               "menu": "footer"
             }
-          },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
           }
         },
         "block_order": [
           "fe4f14f6-d517-4ed6-8008-9706cd46afbf",
-          "footer-0",
-          "footer-1"
+          "footer-1",
+          "footer-0"
         ],
         "settings": {
           "color_scheme": "background-1",
