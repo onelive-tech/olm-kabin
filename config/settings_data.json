@@ -176,14 +176,14 @@
             "type": "link_list",
             "settings": {
               "heading": "Products",
-              "menu": "footer"
+              "menu": "products"
             }
           },
           "footer-0": {
             "type": "link_list",
             "settings": {
               "heading": "Resources",
-              "menu": "footer"
+              "menu": "resources"
             }
           }
         },
