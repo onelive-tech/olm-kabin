@@ -96,7 +96,7 @@ footer.footer h2 {
 }
 .footer-block__newsletter .footer__list-social li   .list-social__link {
     color:#fff;
-  paddin-bottom:0;
+  padding-bottom:0;
 }
 
 @media (max-width:768px) {
