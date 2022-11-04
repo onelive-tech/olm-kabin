@@ -69,6 +69,9 @@ footer.footer .footer-block__details-content .list-menu__item--link {
     color:#fff;
   padding-bottom:0;
 }
+.footer-block__details-content>li {
+  line-height:1.2;
+}
 footer.footer h2 {
     color:#fff;
   margin-bottom:0;
