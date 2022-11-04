@@ -50,8 +50,24 @@
           "settings": {
           }
         },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "6fabc28a-9b8f-4f2a-8ce6-7bb628beceac": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product Review",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
         "6cb93732-e138-461f-88d1-2b79b133b49f": {
           "type": "rating",
+          "disabled": true,
           "settings": {
           }
         },
@@ -90,12 +106,6 @@
             "content": "",
             "page": ""
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -107,12 +117,13 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "share",
+        "6fabc28a-9b8f-4f2a-8ce6-7bb628beceac",
         "6cb93732-e138-461f-88d1-2b79b133b49f",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
-        "collapsible-row-3",
-        "share"
+        "collapsible-row-3"
       ],
       "settings": {
         "enable_sticky_info": true,
