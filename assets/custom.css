@@ -11,7 +11,9 @@ font-style: normal;
   position:fixed;
   width:100%;
 }
-
+#MainContent {
+  margin-top:100px;
+}
 
 .collection .grid__item {
     border:1px solid #eee;
@@ -93,4 +95,11 @@ footer.footer h2 {
 }
 .footer-block__newsletter .footer__list-social li   .list-social__link {
     color:#fff;
+}
+
+@media (max-width:768px) {
+  #MainContent {
+    margin-top:80px;
+  }
+
 }
