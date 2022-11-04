@@ -70,6 +70,7 @@ footer.footer .footer-block__details-content .list-menu__item--link {
 }
 footer.footer h2 {
     color:#fff;
+  margin-bottom:0;
 }
 
 .footer-block__newsletter .footer__list-social {
