@@ -60,7 +60,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Product Review",
-            "icon": "check_mark",
+            "icon": "star",
             "content": "",
             "page": ""
           }
