@@ -287,7 +287,15 @@
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       }
     </script>
+    <script>
+      $(document).on('click', 'a[href^="#"]', function (event) {
+        event.preventDefault();
 
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 500);
+        });
+    </script>
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
