@@ -6,14 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "HEADING",
+            "heading": "For life's warmest moments.",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "FIRESIDE TOOLS THAT JUST WORK",
             "text_style": "body"
           }
         },
@@ -52,7 +52,7 @@
       "type": "image-text-section",
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled-1.png",
-        "heading": "We are KABIN",
+        "heading": "We are KABIN.",
         "text": "KABIN is an intersection of rustic living and modern conveniences. Our products celebrate simplicity and the outdoors while using the best materials, designs, and craftsmanship this era has to offer. All KABIN products are designed in-house by our small team.",
         "button-one-text": "SHOP TOOLS",
         "button-one-link": "shopify:\/\/collections",
