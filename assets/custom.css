@@ -35,7 +35,10 @@ font-style: normal;
 
 /*  */
 
-
+.product__media-item.grid__item.slider__slide {
+  max-width:none;
+  width:90%;
+}
 .collection__title .title {
     text-align: center;
 }
