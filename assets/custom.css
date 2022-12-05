@@ -115,9 +115,14 @@ footer.footer h2 {
     color:#fff;
   padding-bottom:0;
 }
+
 @media screen and (min-width: 750px) {
   .cart-notification {
       top: 75px;
+  }
+  .product--thumbnail .product__media-gallery {
+ 
+    top: 11rem;
   }
 }
 @media (max-width:768px) {
