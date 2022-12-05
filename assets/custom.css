@@ -120,9 +120,9 @@ footer.footer h2 {
   .cart-notification {
       top: 75px;
   }
-  .grid__item product__media-wrapper .product--thumbnail .product__media-gallery {
+  .product--thumbnail .product__media-gallery {
  
-    top: 11rem;
+    top: 11rem!important;
   }
 }
 @media (max-width:768px) {
