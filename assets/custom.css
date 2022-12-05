@@ -115,7 +115,11 @@ footer.footer h2 {
     color:#fff;
   padding-bottom:0;
 }
-
+@media screen and (min-width: 750px) {
+  .cart-notification {
+      top: 81px;
+  }
+}
 @media (max-width:768px) {
   #MainContent {
     margin-top:80px;
