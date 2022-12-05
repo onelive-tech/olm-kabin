@@ -34,9 +34,7 @@ font-style: normal;
 
 
 /*  */
-.product__media-list {
-  padding-top:80px;
-}
+
 .product .product__media-wrapper .product__media-gallery .product__media-list .product__media-item.grid__item {
   max-width: 70%;
   width: 70%;
