@@ -122,7 +122,7 @@ footer.footer h2 {
   }
   .product--thumbnail .product__media-gallery {
  
-    top: 11rem!important;
+    top: 13rem!important;
   }
 }
 @media (max-width:768px) {
