@@ -118,6 +118,9 @@ footer.footer h2 {
 .newsletter-form__field-wrapper input {
   color:#fff;
 }
+.newsletter-form__field-wrapper .field__label {
+  color:#fff;
+}
 @media screen and (min-width: 750px) {
   .cart-notification {
       top: 75px;
