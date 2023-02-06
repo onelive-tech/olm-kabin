@@ -121,6 +121,10 @@ footer.footer h2 {
 .newsletter-form__field-wrapper .field__label {
   color:#fff;
 }
+.footer-block__details-content .list-menu__item--link:hover, .copyright__content a:hover {
+  color:#fff;
+  text-decoration:underline;
+}
 @media screen and (min-width: 750px) {
   .cart-notification {
       top: 75px;
@@ -139,11 +143,9 @@ footer.footer h2 {
     border:none;
   }
   .newsletter-form {
-    display: flex;
-    flex-direction: column;
+
     justify-content: left;
     align-items: start;
-    width: 100%;
-    position: relative;
-}
+
+  }
 }
