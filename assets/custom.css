@@ -129,13 +129,13 @@ footer.footer h2 {
  
     top: 14rem!important;
   }
-  .footer__blocks-wrapper.grid .grid__item:first-child {
-    border:none;
-  }
+
 }
 @media (max-width:768px) {
   #MainContent {
     margin-top:80px;
   }
-
+  .footer__blocks-wrapper.grid .grid__item:first-child {
+    border:none;
+  }
 }
