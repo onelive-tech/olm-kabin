@@ -92,6 +92,9 @@ footer.footer .footer-block__details-content .list-menu__item--link:hover {
   color:#fff;
   text-decoration:underline;
 }
+.list-social__link:first-child {
+  padding-left:0;
+}
 footer.footer h2 {
     color:#fff;
   margin-bottom:0;
