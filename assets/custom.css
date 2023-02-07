@@ -88,7 +88,7 @@ footer.footer .footer-block__details-content .list-menu__item--link:hover {
 .footer-block__details-content>li {
   line-height:1;
 }
-.copyright__content a:hover {
+.footer__content-bottom .copyright__content a:hover {
   color:#fff;
   text-decoration:underline;
 }
