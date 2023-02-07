@@ -80,6 +80,9 @@ footer.footer .footer-block__details-content .list-menu__item--link {
     color:#fff;
   padding-bottom:0;
   font-size:1.7rem;
+  text-decoration:none;
+}
+footer.footer .footer-block__details-content .list-menu__item--link:hover {
   text-decoration:underline;
 }
 .footer-block__details-content>li {
