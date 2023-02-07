@@ -88,6 +88,10 @@ footer.footer .footer-block__details-content .list-menu__item--link:hover {
 .footer-block__details-content>li {
   line-height:1;
 }
+.copyright__content a:hover {
+  color:#fff;
+  text-decoration:underline;
+}
 footer.footer h2 {
     color:#fff;
   margin-bottom:0;
